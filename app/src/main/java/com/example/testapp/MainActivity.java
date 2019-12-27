@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     private User user;
     private Work work;
 
+    //这是我加的这些代码 我就是来测试的
+    private User user1;
+    private Work work2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
