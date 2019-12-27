@@ -16,9 +16,15 @@ public class MainActivity extends AppCompatActivity {
     private User user;
     private Work work;
 
+    //我是远程端口加的代码 我申请加入你们
+    private User user4;
+    private Work work4;
+    
     //这是我加的这些代码 我就是来测试的
     private User user1;
     private Work work2;
+    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 work.getWorkAvatar().set("http://img3.imgtn.bdimg.com/it/u=1485208754,3121192343&fm=26&gp=0.jpg");
             }
         }, 8000);
-
+//我就是远程的捣乱代码 哈哈哈
         findViewById(R.id.btn_go).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
