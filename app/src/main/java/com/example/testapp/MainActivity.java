@@ -65,5 +65,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ListViewActivity.class));
             }
         });
+        //我就bruce修改的代码备注 我申请加入
     }
 }
